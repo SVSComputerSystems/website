@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" defer />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navigation">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="custom_pc_builds.html">Custom PC Builds</a></li>
+          <li><a href="pc_upgrades.html">PC Upgrades</a></li>
+          <li><a href="pc_herstellingen.html">PC Herstellingen</a></li>
+          <li><a href="pc_problemen.html">Computerproblemen</a></li>
+          <li>
+            <a
+              style="color: #2c3e50; background-color: #bdc3c7"
+              href="contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="contact-form">
+        <h1>Contacteer ons</h1>
+        <p>
+          Wil je een gratis offerte aanvragen voor een custom pc? Of heb je een
+          vraag over iets anders wat we doen, contacteer ons!
+        </p>
+        <form action="https://formspree.io/f/xdkazkya" method="POST">
+          <label for="name">Naam</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="subject">Onderwerp</label>
+          <input type="text" id="subject" name="subject" required />
+
+          <label for="message">Bericht</label>
+          <input
+            id="message"
+            name="message"
+            placeholder="Typ hier je bericht"
+            required
+          />
+
+          <button id="verzend-button" type="submit">Verzend</button>
+        </form>
+      </div>
+      <div class="grid-contact">
+        <img src="content/contact/contact1.jpg" alt="Afbeelding 1" />
+        <img src="content/contact/contact2.jpg" alt="Afbeelding 2" />
+        <img src="content/contact/contact3.jpg" alt="Afbeelding 3" />
+        <img src="content/contact/contact4.jpg" alt="Afbeelding 4" />
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
